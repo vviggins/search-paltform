@@ -2,7 +2,7 @@
 
 spring:
   application:
-    name: yuso-backend
+    name: search-platform
   # 默认 dev 环境
   profiles:
     active: dev

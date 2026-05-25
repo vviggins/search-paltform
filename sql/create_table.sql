@@ -1,6 +1,4 @@
 # 建表脚本
-# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
-# @from <a href="https://yupi.icu">编程导航知识星球</a>
 
 -- 创建库
 create database if not exists my_db;
@@ -54,7 +52,7 @@ create table if not exists post_thumb
     index idx_userId (userId)
 ) comment '帖子点赞';
 
--- https://t.zsxq.com/0emozsIJh
+-- 
 
 -- 帖子收藏表（硬删除）
 create table if not exists post_favour
